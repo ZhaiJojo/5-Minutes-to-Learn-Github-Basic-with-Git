@@ -6,21 +6,21 @@ This is a very quick guide to make you use GitHub as an online code container in
 
 ### How to upload your local projects to GitHub?
 
-Install Git form [its official website](https://git-scm.com/) Leave all installation settings as default.
+Install Git form [its official website](https://git-scm.com/). Leave all installation settings as default.
 
 Enter your local directory with Windows file browser where you store your code, for example, D:\project1.
 
 Sign in to your GitHub, create a new repository called “project1”, leaving all settings as default.
 
-right click an empty area, choose "Git Bash Here"
+Right click an empty area and choose "Git Bash Here"
 
 Enter these commands in order:
 
-git init
-git add .
-git commit -m “your commit message”
-git remote add origin [URL of project1 in GitHub]
-git push origin master
+`git init`
+`git add .`
+`git commit -m “your commit message”`
+`git remote add origin [URL of project1 in GitHub]`
+`git push origin master`
 
 Finished! If you want to add a README in your project, just new a “README.md” file in your project folder before you enter those commands. GitHub can recognize it automatically according to its filename and display the content of “README.md” in your online repository. Notice! Do not edit the “README.md” with the Windows embedded notepad, otherwise some garbled characters may be display in your online repository. Notepad ++ is recommended.
 
@@ -28,14 +28,14 @@ Finished! If you want to add a README in your project, just new a “README.md�
 
 If you have edited the files in your local “project1” folder and want to update your online repository, you should enter these commands in the Git Bash opened with the same manner as before:
 
-git add .
-git commit -m “your commit message”
-git push origin master
+`git add .`
+`git commit -m “your commit message”`
+`git push origin master`
 
 ### How to download your online repository to local?
 
-you should enter these commands in the Git Bash opened with the same manner as before:
-git pull origin master --allow-unrelated-histories
+You should enter these commands in the Git Bash opened with the same manner as before:
+`git pull origin master --allow-unrelated-histories`
 
 ## Advanced skills
 
