@@ -1,5 +1,7 @@
 # 5-Minutes-to-Learn-GitHub-Basic-with-Git
 
+*If you want to reprint this article, please label its origin "https://github.com/ZhaiJojo/5-Minutes-to-Learn-Github-Basic-with-Git/" explicitly.*
+
 This is a very quick guide to make you use GitHub as an online code container in Windows 10. All procedures in this guide are the easiest way among all ways that I can think of to do the same things.
 
 ## Basic Things 
