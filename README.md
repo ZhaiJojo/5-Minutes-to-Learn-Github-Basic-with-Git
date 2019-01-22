@@ -17,9 +17,13 @@ Right click an empty area and choose "Git Bash Here"
 Enter these commands in order:
 
 `git init`
+
 `git add .`
+
 `git commit -m “your commit message”`
+
 `git remote add origin [URL of project1 in GitHub]`
+
 `git push origin master`
 
 Finished! If you want to add a README in your project, just new a “README.md” file in your project folder before you enter those commands. GitHub can recognize it automatically according to its filename and display the content of “README.md” in your online repository. Notice! Do not edit the “README.md” with the Windows embedded notepad, otherwise some garbled characters may be display in your online repository. Notepad ++ is recommended.
@@ -29,7 +33,9 @@ Finished! If you want to add a README in your project, just new a “README.md�
 If you have edited the files in your local “project1” folder and want to update your online repository, you should enter these commands in the Git Bash opened with the same manner as before:
 
 `git add .`
+
 `git commit -m “your commit message”`
+
 `git push origin master`
 
 ### How to download your online repository to local?
